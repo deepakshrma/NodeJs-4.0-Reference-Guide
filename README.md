@@ -1,5 +1,16 @@
 # NodeJs-4.0-Reference-Guide
 NodeJs-4.0-Reference-Guide
+
+##How To install nodejs 4.0
+```bash
+#Go to home
+cd ~
+#run command
+wget https://raw.githubusercontent.com/deepakshrma/NodeJs-4.0-Reference-Guide/master/install.sh && bash install.sh
+#It will download and install nodejs 4.1.2 for you
+```
+
+
 Sticky Notes:
 ###function
 1. `functions` are first-class objects, i.e. they are objects and can be manipulated and passed around just like any other object. Specifically, they are Function objects.
