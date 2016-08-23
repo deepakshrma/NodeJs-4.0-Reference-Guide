@@ -8,6 +8,13 @@ cd ~
 #run command
 wget https://raw.githubusercontent.com/deepakshrma/NodeJs-4.0-Reference-Guide/master/install.sh && bash install.sh
 #It will download and install nodejs 4.1.2 for you
+New Script
+wget https://raw.githubusercontent.com/deepakshrma/NodeJs-4.0-Reference-Guide/master/nodejs-installer.sh && bash nodejs-installer.sh -v lts
+#here -v or --version can be sepecific to 0.10.37 or it could be latest/lts 
+#Examples
+bash nodejs-installer.sh -v lts
+bash nodejs-installer.sh -v latest
+bash nodejs-installer.sh -v 4.4.2
 ```
 
 
