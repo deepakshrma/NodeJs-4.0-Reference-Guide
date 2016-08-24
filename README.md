@@ -16,7 +16,14 @@ bash nodejs-installer.sh -v lts
 bash nodejs-installer.sh -v latest
 bash nodejs-installer.sh -v 4.4.2
 ```
-
+####Note: 
+run *_node -v_* to see current install version. If still you can't see node. Just make sure there is an entry in you .bashrc/.bash_profile
+```bash
+#At the end of file
+export NODE=/opt/node
+export PATH=$PATH:$NODE/bin
+export PATH
+```
 
 Sticky Notes:
 ###function
