@@ -7,15 +7,17 @@ NodeJs-4.0-Reference-Guide
 cd ~
 #run command
 #New Script
-wget https://raw.githubusercontent.com/deepakshrma/NodeJs-4.0-Reference-Guide/master/nodejs-installer.sh && bash nodejs-installer.sh -v lts
-#here -v or --version can be sepecific to 0.10.37 or it could be latest/lts 
-#Examples
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/deepakshrma/NodeJs-4.0-Reference-Guide/master/nodejs-installer.sh | sh
+OR
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/deepakshrma/NodeJs-4.0-Reference-Guide/master/nodejs-installer.sh && bash nodejs-installer.sh -v lts
+# here -v or --version can be specific to 13.7.0 or it could be latest/lts 
+# Examples
 bash nodejs-installer.sh -v lts
 bash nodejs-installer.sh -v latest
-bash nodejs-installer.sh -v 4.4.2
-#Old Script
-wget https://raw.githubusercontent.com/deepakshrma/NodeJs-4.0-Reference-Guide/master/install.sh && bash install.sh
-#It will download and install nodejs 4.1.2 for you
+bash nodejs-installer.sh -v 12.14.1
+# Old Script
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/deepakshrma/NodeJs-4.0-Reference-Guide/master/install.sh && bash install.sh
+# It will download and install nodejs 4.1.2 for you
 ```
 ####Note: 
 run *_node -v_* to see current install version. If still you can't see node. Just make sure there is an entry in you .bashrc/.bash_profile
